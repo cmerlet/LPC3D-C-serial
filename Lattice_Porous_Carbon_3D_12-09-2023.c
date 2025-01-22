@@ -74,12 +74,15 @@ smallest 'considered site' - 'non accessible site' distance;
 13th line: type of free energies assignment (> test_feng)
  test_feng can be "1D" if we use a one dimensional profile or "3D" if we use a three dimensional file
  coordinates should in anstroms, free energies should be in kJ/mol 
-14th line: name of the free energies file and number of values (> nameng, Neng)
-15th line: type of chemical shifts (> test_shift)
+14th line: name of the free energies file (> nameng)
+15th line: number of values in this file (> Neng)
+16th line: type of chemical shifts (> test_shift)
  test_shift can be "1D" if we use a one dimensional profile (for example from Gaussian), "Xing" if we use Xing model, 
  "3D" if we use a three dimensional file, "dipolar" if we use the dipolar model
-16th line: name of the file with the chemical shifts and number of values if "1D" or "3D" before (> namefreq1, Nfreq)
+17th line: name of the file with the chemical shifts and number of values if "1D" or "3D" before (> namefreq1) 
+18th line: number of values in this file (> Nfreq)
  coordinates should be in anstroms, chemical shifts should be in ppm
+
 */ 
 
 /************************* Coarse *************************/
